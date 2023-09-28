@@ -1,20 +1,16 @@
-from sys import stderr
+import sys
 
 
 def txt_importer(path_file):
     if not path_file.endswith(".txt"):
-        print("Formato inválido", file=stderr)
-        return
-    try:
+        print("Formato inválido", file=sys.stderr)
 
+    try:
         with open(path_file, "r") as file:
             return _make_list(file)
 
     except FileNotFoundError:
-        print(f"Arquivo {path_file} não encontrado", file=stderr)
-
-    # except ValueError:
-    #     print("Formato inválido", file=stderr)
+        print(f"Arquivo {path_file} não encontrado", file=sys.stderr)
 
 
 def _make_list(data):
@@ -24,6 +20,3 @@ def _make_list(data):
         result.append(line)
 
     return result
-
-
-print(txt_importer("test.csv"))
