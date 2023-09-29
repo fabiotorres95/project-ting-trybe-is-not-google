@@ -28,4 +28,15 @@ def exists_word(word, instance):
 
 
 def search_by_word(word, instance):
-    """Aqui irá sua implementação"""
+    data = exists_word(word, instance)
+    result = []
+    for i in range[len(data)]:
+        result.append(data[i])
+        for j in range(len(data[i]['ocorrencias'])):
+            result[i]['ocorrencias'][j]['conteudo'] = instance[
+                file['arquivo']
+            ][
+                'linhas_do_arquivo'
+            ][
+                line['linha'] - 1
+            ]
