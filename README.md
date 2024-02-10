@@ -8,3 +8,6 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 - quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
 - quais arquivos/pastas foram desenvolvidos pela Trybe.
 -->
+Projeto TING - Trybe is not Google - Trybe curso Python seção 3: "Estrutura de Dados I: Listas Lineares"
+
+Ciência da Computação - projeto 2 de 3
